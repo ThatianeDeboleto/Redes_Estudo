@@ -1,0 +1,14 @@
+[geral]
+tamanho_buffer_padrao=1024
+tamanho_buffer_arquivo=8192
+
+[server]
+pasta_deposito='../storage'
+database='../storage/database.json'
+
+
+[client]
+pasta_recuperados='../downloads'
+
+[mirror]
+pasta_mirror='../mirror'

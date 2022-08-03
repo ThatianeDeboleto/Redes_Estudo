@@ -1,0 +1,20 @@
+[
+  {
+    "arquivo": "teste.txt",
+    "tamanho": "10KB",
+    "replicas": [
+        {
+            "nome": "node1",
+            "status": "OK"
+        },
+        {
+            "nome": "node2",
+            "status": "OK"
+        },
+        {
+            "nome": "node3",
+            "status": "OK"
+        }
+    ]
+  }
+]
