@@ -22,9 +22,9 @@ class Server:
         self.carregar_database()
 
     def carregar_database(self):
-        """
-        Carrega o banco de dados.
-        """
+        
+        #Carrega o banco de dados.
+        
         if os.path.exists(settings.get('server.database')):
             with open(settings.get('server.database'), 'r') as database:
                 self.database = json.load(database)
