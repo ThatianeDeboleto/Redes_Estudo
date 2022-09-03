@@ -13,6 +13,6 @@ if __name__ == '__main__':
     else:
         print('Opção inválida')
         exit()
-    print('\nFim do programa')
+    print('\nFim do codigo')
     exit()
 
